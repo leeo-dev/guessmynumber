@@ -57,6 +57,7 @@ class GuessMyNumber {
   #updateUi() {
     this.scoreLabel.textContent = this.#score;
     this.highscoreLabel.textContent = this.#highscore;
+    this.guess.value = "";
   }
 
   #convertGuessedNumber(guess) {
